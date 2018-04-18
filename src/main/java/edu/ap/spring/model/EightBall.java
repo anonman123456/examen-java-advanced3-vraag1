@@ -26,7 +26,7 @@ public class EightBall {
 	public String getRandomAnswer(String question) {
 		String answer = "";
 
-		// if question exists geef bestaande antwoord terugµ
+		// zit vraag al in database? geef bestaande antwoord terug
         boolean exists = false;
         Iterable<Question> questions = questionRepository.findAll();
 		for(Question q : questions){
@@ -35,25 +35,47 @@ public class EightBall {
 				answer = q.getAnswer();
 			}
 		}
-
 		// vraag bestaat al of niet
         if(!exists){
-            System.out.println("Doesn't exists");
+            //System.out.println("Nieuwe vraag: ");
             // random vraag selecteren
             answer = selectRandomAndDistributedAnswer(questions);
             questionRepository.save(new Question(question, answer));
-        } else {
-            System.out.println("Exists");
         }
         return answer;
 	}
 
 	private String selectRandomAndDistributedAnswer(Iterable<Question> questions){
-        String answer = answers[generator.nextInt(answers.length)];
         ArrayList<String> foundAnswers = new ArrayList<>();
-        // welke vragen komen niet voor in database????
+        ArrayList<String> possibleAnswers = new ArrayList<>();
+
+        // welke antwoorden komen voor in database????
         for (Question question: questions) {
             foundAnswers.add(question.getAnswer());
+        }
+        //System.out.println("--------------------");
+        //System.out.println("Antwoorden in database: ");
+        //for(String foundAnswer : foundAnswers){
+        //    System.out.println(foundAnswer);
+        //}
+        // welke antwoorden schieten nog over om uit te kiezen
+        for(String possibleAnswer : getAnswers()){
+            if(!foundAnswers.contains(possibleAnswer)){
+                possibleAnswers.add(possibleAnswer);
+            }
+        }
+        //System.out.println("--------------------");
+        //System.out.println("Antwoorden om uit te kiezen: ");
+        //for(String possibleAnswer : possibleAnswers){
+        //    System.out.println(possibleAnswer);
+        //}
+        // kies random antwoord uit overblijvenden
+        // indien geen overblijven kies uit oorspronkelijke lijst
+        // indien wel overblijven enkel uit overblijvenden
+        if(possibleAnswers.size() == 0){
+            return getAnswers()[(generator.nextInt(getAnswers().length))];
+        } else {
+            return possibleAnswers.get(generator.nextInt(possibleAnswers.size()));
         }
     }
 

@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7631e131-1a8d-4975-9568-e15d7f0e8f00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/41b5a220-f5e0-4c8d-a467-7a2321d0b0e6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ap/spring/view/EightballFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/ap/spring/test/CustomSpringApplicationContextLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ap/spring/EightBallApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ap/spring/EightBallApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/QuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/QuestionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/ap/spring/model/EightBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/ap/spring/model/EightBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ap/spring/test/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ap/spring/test/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ap/spring/EightBallApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ap/spring/EightBallApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ap/spring/jpa/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ap/spring/jpa/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ap/spring/jpa/QuestionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ap/spring/jpa/QuestionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ap/spring/model/EightBall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ap/spring/model/EightBall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/ap/spring/view/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/ap/spring/view/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ap/spring/test/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/ap/spring/test/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/ap/spring/test/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/ap/spring/test/SpringTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,47 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/UI.java">
+      <file leaf-file-name="EightballFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/EightballFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/QuestionRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/jpa/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/ap/spring/test/SpringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-572">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="420">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,33 +59,8 @@
       <file leaf-file-name="EightBall.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/model/EightBall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EightBallApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/EightBallApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EightballFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/EightballFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="207">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -331,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTest.testRepo">
+  <component name="RunManager" selected="JUnit.SpringTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -430,8 +347,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringTest.testRepo" />
         <item itemvalue="JUnit.SpringTest" />
+        <item itemvalue="JUnit.SpringTest.testRepo" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +363,7 @@
       <option name="presentableId" value="Default" />
       <updated>1524049389172</updated>
       <workItem from="1524049397758" duration="1516000" />
-      <workItem from="1524051320720" duration="5782000" />
+      <workItem from="1524051320720" duration="6901000" />
     </task>
     <servers />
   </component>
@@ -469,9 +386,15 @@
     <history-entry file="SpringTest_testRepo - 2018.04.18 at 15h 07m 32s.xml">
       <configuration name="SpringTest.testRepo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringTest - 2018.04.18 at 15h 25m 37s.xml">
+      <configuration name="SpringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTest - 2018.04.18 at 15h 31m 12s.xml">
+      <configuration name="SpringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7298000" />
+    <option name="totallyTimeSpent" value="8417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -497,7 +420,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8535871" weight="0.87758344" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8535871" weight="0.7106518" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -570,16 +493,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/41b5a220-f5e0-4c8d-a467-7a2321d0b0e6/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/EightballFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/UI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -635,16 +548,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/model/EightBall.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/view/EightballFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/ap/spring/model/EightBall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
